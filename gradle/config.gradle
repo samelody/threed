@@ -1,0 +1,31 @@
+ext {
+    config = [
+            appId            : 'com.samelody.sample.threed',
+            group            : 'com.github.samelody',
+            project          : ':threed',
+            compileSdkVersion: 25,
+            targetSdkVersion : 25,
+            minSdkVersion    : 14,
+            buildToolsVersion: '25.0.2',
+            versionCode      : 3,
+            versionName      : '0.3.0',
+    ]
+
+    version = [
+            support   : '25.3.0',
+            leakcanary: '1.5',
+            junit     : '4.12',
+    ]
+
+    libs = [
+            appcompat     : "com.android.support:appcompat-v7:${version.support}",
+            support       : "com.android.support:support-v4:${version.support}",
+            stathod       : "com.github.samelody:stathod:0.2.0",
+            junit         : "junit:junit:${version.junit}",
+            espresso      : "com.android.support.test.espresso:espresso-core:2.2.2",
+            mockito       : "org.mockito:mockito-android:2.7.13",
+            timber        : "com.jakewharton.timber:timber:4.5.1",
+            leakcanary    : "com.squareup.leakcanary:leakcanary-android:${version.leakcanary}",
+            leakcanaryStub: "com.squareup.leakcanary:leakcanary-android-no-op:${version.leakcanary}",
+    ]
+}
