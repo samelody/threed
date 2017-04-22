@@ -9,6 +9,10 @@ MoreTextView for Android. Click the TextView to show more text.
 
 **DO NOT USE THIS LIBRARY IN PRODUCTION** until `1.0.0` is released.
 
+# Screenshot
+
+<img src="./art/sample.gif" style="width:300px;height:500px;" />
+
 # Download
 
 This project is available on `JitPack` repository.
@@ -28,13 +32,31 @@ In your app `build.gradle`:
 
 ```gradle
 dependencies {
-    // coming soon
+    compile 'com.github.samelody:threed:0.1.0'
 }
 ```
 
 # Getting started
 
-Coming soon...
+Add `MoreTextView` into your UI layout:
+
+```xml
+<com.samelody.threed.MoreTextView
+    android:id="@+id/text2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:text="@string/your_text"
+    app:moreText="@string/more"
+    app:moreTextColor="@color/moreColor"
+    />
+```
+
+Setup a `OnEllipsizeChangeListener`:
+
+```java
+Threed.setOnEllipsizeChangeListener(moreTextView, onEllipsizeChangeListener);
+```
 
 # Dependencies
 
