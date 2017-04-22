@@ -32,7 +32,7 @@ In your app `build.gradle`:
 
 ```gradle
 dependencies {
-    compile 'com.github.samelody:threed:0.1.0'
+    compile 'com.github.samelody:threed:0.1.1'
 }
 ```
 

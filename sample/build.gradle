@@ -23,4 +23,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(config.project)
+//    compile 'com.github.samelody:threed:0.1.1'
 }
