@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     >
-
-</LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.samelody.threed.MoreTextView
+            android:id="@+id/text1"
+            android:maxLines="3"
+            android:background="@android:color/transparent"
+            style="@style/TextView"
+            />
+        <com.samelody.threed.MoreTextView
+            android:id="@+id/text2"
+            android:maxLines="1"
+            style="@style/MoreTextView"
+            />
+        <com.samelody.threed.MoreTextView
+            android:maxLines="2"
+            style="@style/MoreTextView"
+            />
+        <com.samelody.threed.MoreTextView
+            android:maxLines="3"
+            style="@style/MoreTextView"
+            />
+        <com.samelody.threed.MoreTextView
+            android:maxLines="4"
+            style="@style/MoreTextView"
+            />
+        <com.samelody.threed.MoreTextView
+            android:maxLines="5"
+            style="@style/MoreTextView"
+            />
+    </LinearLayout>
+</ScrollView>

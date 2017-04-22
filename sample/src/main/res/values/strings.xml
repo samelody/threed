@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Threed Sample</string>
+    <string name="text">寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。满地黄花堆积。憔悴损，如今有谁堪摘？守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得！</string>
+    <string name="text_english">Fragment transactions can now be optimized within and across transactions. Optimizing fragment transaction operations can eliminate operations that cancel. For example, suppose two transactions are executed together, one that adds a fragment A and a second one that replaces fragment A with fragment B. In this case, the first operation might be canceled, and only fragment B added. That means that fragment A might not go through the creation/destruction lifecycle.</string>
+    <string name="zero"></string>
+    <string name="more">更多</string>
 </resources>

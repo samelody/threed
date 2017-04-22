@@ -5,7 +5,7 @@
 [![Apache](https://img.shields.io/hexpm/l/plug.svg)](LICENSE)
 ![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg)
 
-ExpandableTextView/EllipsisTextView for Android.
+MoreTextView for Android. Click the TextView to show more text.
 
 **DO NOT USE THIS LIBRARY IN PRODUCTION** until `1.0.0` is released.
 

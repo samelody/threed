@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="MoreTextView">
+        <attr name="moreText" format="string" />
+        <attr name="moreTextColor" format="color" />
+    </declare-styleable>
+</resources>
